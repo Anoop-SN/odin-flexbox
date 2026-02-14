@@ -10,6 +10,7 @@ body{
     min-height: 100vh;
     
 }
+
 /* Header Part */
 a{
     all:unset;
@@ -89,10 +90,40 @@ ul{
     padding:100px;
     
 }
+
 /* Main Content Part */
+
+/*Quote part*/
+.quote{
+    background-color: #efe7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:auto 0px;
+    padding: 30px 0px;
+    
+}
+.quote>span{
+    font-weight: bolder;
+    margin-left:70vb;
+    font-size: 25px;
+          
+}
+.quote>p{
+    margin: 0px;
+    font-weight: 300;
+    color: #1f2937;
+    font-size: 36px;
+}
+
+
+
+
+/* bubble with sign up part */
 .bubble{
     background-color: #3882f6;
-    margin:50px 20px ;
+    margin:auto 20px ;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -120,12 +151,6 @@ ul{
     margin-left:auto ;
     padding:5px ;
 }
-
-
-
-
-
-
 
 /* Footer */
 .footer{
