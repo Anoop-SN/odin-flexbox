@@ -5,6 +5,10 @@
 body{
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
 }
 /* Header Part */
 a{
@@ -56,7 +60,7 @@ ul{
     color:#efe7eb;
     font-size: 18px;
 }
-h2{
+.headertextcontent>h2{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
@@ -67,7 +71,7 @@ h2{
     font-size: 18px;
     color: #e5e7eb;
 }
-button{
+.headertextcontent>button   {
     background-color: #3882f6;
     color: #e5e7eb;
     font-weight: 900;
@@ -86,3 +90,22 @@ button{
     
 }
 /* Main Content Part */
+
+
+
+
+
+
+
+/* Footer */
+.footer{
+    background-color:#1f2937;
+    text-align: center;
+    font-size: 18px;
+    margin: 0px;
+    color: #efe7eb;
+    margin-top: auto;
+    padding: 20px 50px;
+
+    
+}
