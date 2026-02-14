@@ -90,6 +90,36 @@ ul{
     
 }
 /* Main Content Part */
+.bubble{
+    background-color: #3882f6;
+    margin:50px 20px ;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: #F9FAF8;
+    padding: 5px 30px;
+    
+}
+.bubbletext>h4{
+    font-weight: 900;
+    font-size:24px ;
+    margin: 0;
+}
+.bubbletext{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 10px;
+}
+.bubble>button{
+    border: 1px solid #F9FAF8;
+    background-color: transparent;
+    color: #F9FAF8;
+    font-weight: 900;
+    border-radius: 5px;
+    margin-left:auto ;
+    padding:5px ;
+}
 
 
 
@@ -106,6 +136,5 @@ ul{
     color: #efe7eb;
     margin-top: auto;
     padding: 20px 50px;
-
     
 }
