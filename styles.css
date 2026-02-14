@@ -91,7 +91,32 @@ ul{
     
 }
 
+/*Content Part */
 /* Main Content Part */
+.maincontent>h3{
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: #1f2937;
+}
+.maincontent{
+    margin: auto 0px 50px 0px;
+}
+.imagebox{
+    border: 5px solid #3882f6;
+    padding: 50px; 
+    border-radius: 10px; 
+    margin: 0;  
+}
+.imagesection{
+    display: flex;
+    justify-content: center;
+    gap:52px;
+    text-align: center;
+}
+.info{
+    max-width: 200px;
+}
 
 /*Quote part*/
 .quote{
@@ -100,7 +125,7 @@ ul{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin:auto 0px;
+    margin:auto 0px 30px 0px;
     padding: 30px 0px;
     
 }
@@ -117,13 +142,10 @@ ul{
     font-size: 36px;
 }
 
-
-
-
 /* bubble with sign up part */
 .bubble{
     background-color: #3882f6;
-    margin:auto 20px ;
+    margin:30px 20px;
     border-radius: 10px;
     display: flex;
     align-items: center;
